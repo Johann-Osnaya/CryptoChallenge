@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Challenge Encriptador</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <main>
+            <section class="logo">
+                <img  src="images/logo-alura.png">
+            </section>
+
+            <section class="text-box">
+                <textarea placeholder="Ingresa el texto aqui" class="input-area" cols="100%" type="text"></textarea>
+                <section class="info">
+                    <img src="images/mark.png"> 
+                    <p> Solo letras mínusculas y sin acentos</span>
+                </section>
+                <section class="buttons">
+                    <button class="encrypt" onclick="encrypt()">Encriptar</button>
+                    <button class="decrypt" onclick="decrypt()">Desencriptar</button>
+                </section>
+            </section>
+
+            <div class="white-square">
+                <img class="ws-image" src="images/search.png">
+                <p class="ws-info">Ningún mensaje fue encontrado</p>
+                <p class="ws-message">Ingresa el texto que desees encriptar o desencriptar.</p>
+                <div class="text-display"></div>
+                <button onclick="copyContent()" class="copy">Copiar</button>
+                <p class="copy-alert">¡Texto Copiado!</p>
+            </div>
+            
+
+
+        </main>
+        <footer>
+            <section class="end">
+                <p>&copy; Johann Osnaya - 2024  // Crypto Challenge - ONE Oracle</p>
+            </section>
+
+        </footer>
+    </body>
+    <script src="crypto.js"></script>
+</html>
+
+
+
+
+
+
