@@ -313,17 +313,17 @@ body {
     .white-square {
         display: block;
         width: 90%;
-        height: 300px;
-        margin: 0 auto 30px auto;
+        height: 400px;
+        margin: 20px auto 30px auto;
     }
-
     .ws-info {
-        padding-top: 100px;
+        padding-top: 50px;
+        margin-top: 20px;
     }
     
     .text-display {
         display: block;
-        height: 175px;
+        height: 60px;
     }
 
     .copy {

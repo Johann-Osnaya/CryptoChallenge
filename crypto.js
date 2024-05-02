@@ -61,9 +61,9 @@ const decrypt = () => {
             const ufatRegex = /(ufat)/g;
             decryptedText = textToDecrypt.replace(enterRegex, "e").replace(imesRegex, "i").replace(aiRegex, "a").replace(oberRegex, "o").replace(ufatRegex, "u");
             document.querySelector(".text-display").textContent = decryptedText;
-            document.querySelector(".white-square").setAttribute("overflow", "auto")
-            document.querySelector(".white-square").setAttribute("overflow", "auto")
-            document.querySelector(".text-display").setAttribute("style","display: block")
+            document.querySelector(".white-square").setAttribute("overflow", "auto");
+            document.querySelector(".white-square").setAttribute("overflow", "auto");
+            document.querySelector(".text-display").setAttribute("style","display: block");
             document.querySelector(".copy").setAttribute("style", "display: block");
         }
 
